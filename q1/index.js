@@ -1,5 +1,5 @@
 function doThing (cb) {
-  cb(new Error());
+  cb(undefined, 'hello');
 }
 
 function foo(callback) {
